@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+.devcontainer
+
 # testing
 /coverage
 
@@ -254,7 +256,6 @@ ecf/
 rcf/
 
 # Windows Store app package directories and files
-AppPackages/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
@@ -368,7 +369,6 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/**
-# !tools/packages.config
 
 # Tabs Studio
 *.tss
