@@ -8,6 +8,8 @@ lib-cov
 *.gz
 *.swp
 
+.turbo
+
 pids
 logs
 results
