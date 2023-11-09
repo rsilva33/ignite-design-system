@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "extends": "@ignite-ui/ts-config/react.json",
-  "include": ["src"],
+  "include": ["src", "../react/src/components/Avatar"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
