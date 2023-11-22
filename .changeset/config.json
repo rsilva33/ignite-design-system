@@ -6,6 +6,6 @@
   "linked": [],
   "access": "public",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": ["@ignite-ui-docs/docs"]
+  "updateInternalDependencies": "patch"
+  // "ignore": ["@ignite-ui-docs/docs"]
 }

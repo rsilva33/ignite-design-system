@@ -24,7 +24,7 @@ jobs:
 
       - run: npm ci
 
-      - name:Publish to NPM
+      - name: Publish to NPM
         id: changesets
         uses: changesets/action@v1
         with:
@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: tsQzKEwf0XlRTH1Kt1vvlzwh
+          TURBO_TOKEN: {{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: team-test-ignite-ui
 
       # - name: Send a Slack notification if a publish happens
