@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/eslint-config",
+  "extends": "@ignite-ui-docs/eslint-config",
   "rules": { "no-empty-interface": false }
 }
