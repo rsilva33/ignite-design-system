@@ -5,7 +5,6 @@ declare const colors: {
     gray200: string;
     gray400: string;
     gray500: string;
-    gray600: string;
     gray700: string;
     gray800: string;
     gray900: string;
@@ -13,6 +12,7 @@ declare const colors: {
     ignite500: string;
     ignite700: string;
     ignite900: string;
+    test: string;
 };
 
 declare const space: {
