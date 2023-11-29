@@ -6,8 +6,8 @@ export default {
   component: Avatar,
   tags: ['autodocs'],
   args: {
-    src: 'https://github.com/diego3g.png',
-    alt: 'Diego Fernandes',
+    src: 'https://github.com/rsilva33.png',
+    alt: 'Ronaldo Silva',
   },
   argTypes: {
     src: {
